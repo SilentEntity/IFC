@@ -20,3 +20,5 @@ In order to make gencsv.sh file
   Making the inputFile readable to "users" group in linux
   $chown -R :users inputFile
 
+Please use docker version 20.10 or above to host.docker.internal DNS to resolve.
+Prometheus use extra hosts for resolving host IP inside container.
