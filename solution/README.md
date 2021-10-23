@@ -15,6 +15,7 @@ $docker exec -it <container-id-from-the-running-container> "netstat -anpe"
 $docker run -d -v /home/$USER/work/IFC/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVER_BORDER=Orange infracloudio/csvserver:latest
 
 In order to make gencsv.sh file
+
 $nano gencsv.sh
 $chmod 777 gencsv.sh
 Making the inputFile readable to "users" group in linux
